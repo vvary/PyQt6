@@ -2,6 +2,7 @@ import sys
 import sqlite3 as sq
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QLineEdit, QRadioButton, QMessageBox
 import time
+import pandas as pd
 
 local = time.ctime(time.time())
 
